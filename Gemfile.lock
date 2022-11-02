@@ -120,6 +120,14 @@ GIT
     redis (5.0.5)
       redis-client (>= 0.9.0)
 
+GIT
+  remote: https://github.com/varvet/pundit
+  revision: a5d756adb518c64697c6652b73cacc12e17d0a70
+  branch: main
+  specs:
+    pundit (2.2.0)
+      activesupport (>= 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -259,6 +267,7 @@ DEPENDENCIES
   jsbundling-rails
   pg (~> 1.1)
   puma (~> 5.0)
+  pundit (~> 2.2)!
   rails!
   redis (~> 5.0)!
   selenium-webdriver
