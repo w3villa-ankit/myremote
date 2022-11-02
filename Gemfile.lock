@@ -322,12 +322,15 @@ GEM
       actionpack (>= 5.0)
       railties (>= 5.0)
     rexml (3.2.5)
+    ruby_http_client (3.5.5)
     rubyzip (2.3.2)
     selenium-webdriver (4.5.0)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    sendgrid-ruby (6.6.2)
+      ruby_http_client (~> 3.4)
     sidekiq (7.0.0)
       concurrent-ruby (< 2)
       connection_pool (>= 2.3.0)
@@ -394,6 +397,7 @@ DEPENDENCIES
   rails!
   redis (~> 5.0)!
   selenium-webdriver
+  sendgrid-ruby (>= 6.6)
   sidekiq (~> 7.0)
   sidekiq-cron (~> 1.8)!
   simplecov
