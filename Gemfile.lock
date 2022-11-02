@@ -65,6 +65,15 @@ GIT
     kaminari-core (1.2.2)
 
 GIT
+  remote: https://github.com/ondrejbartas/sidekiq-cron
+  revision: 90004a814f60443f1dd682b67c175b18b06c06e8
+  branch: master
+  specs:
+    sidekiq-cron (1.8.0)
+      fugit (~> 1)
+      sidekiq (>= 4.2.1)
+
+GIT
   remote: https://github.com/rails/rails.git
   revision: cac3c8f54eac403b1bc49b8090e39b8c176add68
   branch: 7-0-stable
@@ -242,8 +251,13 @@ GEM
       reline (>= 0.3.1)
     docile (1.4.0)
     erubi (1.11.0)
+    et-orbi (1.2.7)
+      tzinfo
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
+    fugit (1.7.1)
+      et-orbi (~> 1, >= 1.2.7)
+      raabro (~> 1.4)
     globalid (1.0.0)
       activesupport (>= 5.0)
     hashdiff (1.0.1)
@@ -288,6 +302,7 @@ GEM
     public_suffix (5.0.0)
     puma (5.6.5)
       nio4r (~> 2.0)
+    raabro (1.4.0)
     racc (1.6.0)
     rack (2.2.4)
     rack-test (2.0.2)
@@ -380,6 +395,7 @@ DEPENDENCIES
   redis (~> 5.0)!
   selenium-webdriver
   sidekiq (~> 7.0)
+  sidekiq-cron (~> 1.8)!
   simplecov
   sprockets-rails
   stimulus-rails
