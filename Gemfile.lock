@@ -1,0 +1,429 @@
+GIT
+  remote: https://github.com/airbrake/airbrake
+  revision: 6ca4b6023d56dba214b55f649743b41fa4934edf
+  branch: master
+  specs:
+    airbrake (13.0.3)
+      airbrake-ruby (~> 6.0)
+
+GIT
+  remote: https://github.com/bblimke/webmock
+  revision: 833291d4ce2d5927a738f929db26b594bf4fa7f5
+  branch: master
+  specs:
+    webmock (3.18.1)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
+
+GIT
+  remote: https://github.com/bullet-train-co/nice_partials
+  revision: c49fd0f9ca8414228299e612d98f22a4b39c8e76
+  branch: main
+  specs:
+    nice_partials (0.1.9)
+      actionview (>= 4.2.6)
+
+GIT
+  remote: https://github.com/faker-ruby/faker
+  revision: 32fcc145106e52e4dd3764c5a695d291071a118f
+  branch: main
+  specs:
+    faker (3.0.0)
+      i18n (>= 1.8.11, < 2)
+
+GIT
+  remote: https://github.com/heartcombo/devise
+  revision: 6d32d2447cc0f3739d9732246b5a5bde98d9e032
+  branch: main
+  specs:
+    devise (4.8.1)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0)
+      responders
+      warden (~> 1.2.3)
+
+GIT
+  remote: https://github.com/hotwired/turbo-rails.git
+  revision: 5f4da6b0e31ccfebc405a139529734fd85afa1ab
+  branch: main
+  specs:
+    turbo-rails (1.3.2)
+      actionpack (>= 6.0.0)
+      activejob (>= 6.0.0)
+      railties (>= 6.0.0)
+
+GIT
+  remote: https://github.com/kaminari/kaminari
+  revision: bf20fccfdbf7d10c337aeead7ecf4f54a230a5fb
+  branch: master
+  specs:
+    kaminari (1.2.2)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.2.2)
+      kaminari-activerecord (= 1.2.2)
+      kaminari-core (= 1.2.2)
+    kaminari-actionview (1.2.2)
+      actionview
+      kaminari-core (= 1.2.2)
+    kaminari-activerecord (1.2.2)
+      activerecord
+      kaminari-core (= 1.2.2)
+    kaminari-core (1.2.2)
+
+GIT
+  remote: https://github.com/ondrejbartas/sidekiq-cron
+  revision: 90004a814f60443f1dd682b67c175b18b06c06e8
+  branch: master
+  specs:
+    sidekiq-cron (1.8.0)
+      fugit (~> 1)
+      sidekiq (>= 4.2.1)
+
+GIT
+  remote: https://github.com/rails/rails.git
+  revision: cac3c8f54eac403b1bc49b8090e39b8c176add68
+  branch: 7-0-stable
+  specs:
+    actioncable (7.0.4)
+      actionpack (= 7.0.4)
+      activesupport (= 7.0.4)
+      nio4r (~> 2.0)
+      websocket-driver (>= 0.6.1)
+    actionmailbox (7.0.4)
+      actionpack (= 7.0.4)
+      activejob (= 7.0.4)
+      activerecord (= 7.0.4)
+      activestorage (= 7.0.4)
+      activesupport (= 7.0.4)
+      mail (>= 2.7.1)
+      net-imap
+      net-pop
+      net-smtp
+    actionmailer (7.0.4)
+      actionpack (= 7.0.4)
+      actionview (= 7.0.4)
+      activejob (= 7.0.4)
+      activesupport (= 7.0.4)
+      mail (~> 2.5, >= 2.5.4)
+      net-imap
+      net-pop
+      net-smtp
+      rails-dom-testing (~> 2.0)
+    actionpack (7.0.4)
+      actionview (= 7.0.4)
+      activesupport (= 7.0.4)
+      rack (~> 2.0, >= 2.2.4)
+      rack-test (>= 0.6.3)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.2.0)
+    actiontext (7.0.4)
+      actionpack (= 7.0.4)
+      activerecord (= 7.0.4)
+      activestorage (= 7.0.4)
+      activesupport (= 7.0.4)
+      globalid (>= 0.6.0)
+      nokogiri (>= 1.8.5)
+    actionview (7.0.4)
+      activesupport (= 7.0.4)
+      builder (~> 3.1)
+      erubi (~> 1.4)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.1, >= 1.2.0)
+    activejob (7.0.4)
+      activesupport (= 7.0.4)
+      globalid (>= 0.3.6)
+    activemodel (7.0.4)
+      activesupport (= 7.0.4)
+    activerecord (7.0.4)
+      activemodel (= 7.0.4)
+      activesupport (= 7.0.4)
+    activestorage (7.0.4)
+      actionpack (= 7.0.4)
+      activejob (= 7.0.4)
+      activerecord (= 7.0.4)
+      activesupport (= 7.0.4)
+      marcel (~> 1.0)
+      mini_mime (>= 1.1.0)
+    activesupport (7.0.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    rails (7.0.4)
+      actioncable (= 7.0.4)
+      actionmailbox (= 7.0.4)
+      actionmailer (= 7.0.4)
+      actionpack (= 7.0.4)
+      actiontext (= 7.0.4)
+      actionview (= 7.0.4)
+      activejob (= 7.0.4)
+      activemodel (= 7.0.4)
+      activerecord (= 7.0.4)
+      activestorage (= 7.0.4)
+      activesupport (= 7.0.4)
+      bundler (>= 1.15.0)
+      railties (= 7.0.4)
+    railties (7.0.4)
+      actionpack (= 7.0.4)
+      activesupport (= 7.0.4)
+      method_source
+      rake (>= 12.2)
+      thor (~> 1.0)
+      zeitwerk (~> 2.5)
+
+GIT
+  remote: https://github.com/redis/redis-rb
+  revision: d4b24e1e4fac7b9e3fee01947bf400f52ea500cf
+  branch: master
+  specs:
+    redis (5.0.5)
+      redis-client (>= 0.9.0)
+
+GIT
+  remote: https://github.com/thoughtbot/factory_bot_rails
+  revision: 57e88e79bf9d965eb4147cc111c2feff18b52c12
+  branch: main
+  specs:
+    factory_bot_rails (6.2.0)
+      factory_bot (~> 6.2.0)
+      railties (>= 5.0.0)
+
+GIT
+  remote: https://github.com/varvet/pundit
+  revision: a5d756adb518c64697c6652b73cacc12e17d0a70
+  branch: main
+  specs:
+    pundit (2.2.0)
+      activesupport (>= 3.0.0)
+
+GIT
+  remote: https://github.com/vcr/vcr
+  revision: 84e5040c3ba67a80d715773f0228a8e31541af1c
+  branch: master
+  specs:
+    vcr (6.1.0)
+
+GIT
+  remote: https://github.com/y-yagi/minitest-test_profile
+  revision: 30744bf387e51d7f947bcdb9341c686d020c2814
+  branch: master
+  specs:
+    minitest-test_profile (0.2.2)
+      minitest
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
+    airbrake-ruby (6.2.0)
+      rbtree3 (~> 0.5)
+    aws-eventstream (1.2.0)
+    aws-partitions (1.654.0)
+    aws-sdk-core (3.166.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.651.0)
+      aws-sigv4 (~> 1.5)
+      jmespath (~> 1, >= 1.6.1)
+    aws-sdk-kms (1.59.0)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.117.1)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sdk-kms (~> 1)
+      aws-sigv4 (~> 1.4)
+    aws-sigv4 (1.5.2)
+      aws-eventstream (~> 1, >= 1.0.2)
+    bcrypt (3.1.18)
+    bindex (0.8.1)
+    builder (3.2.4)
+    capybara (3.37.1)
+      addressable
+      matrix
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+    childprocess (4.1.0)
+    concurrent-ruby (1.1.10)
+    connection_pool (2.3.0)
+    crack (0.4.5)
+      rexml
+    crass (1.0.6)
+    cssbundling-rails (1.1.1)
+      railties (>= 6.0.0)
+    debug (1.6.3)
+      irb (>= 1.3.6)
+      reline (>= 0.3.1)
+    docile (1.4.0)
+    erubi (1.11.0)
+    et-orbi (1.2.7)
+      tzinfo
+    factory_bot (6.2.1)
+      activesupport (>= 5.0.0)
+    fugit (1.7.1)
+      et-orbi (~> 1, >= 1.2.7)
+      raabro (~> 1.4)
+    globalid (1.0.0)
+      activesupport (>= 5.0)
+    hashdiff (1.0.1)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    io-console (0.5.11)
+    irb (1.4.2)
+      reline (>= 0.3.0)
+    jbuilder (2.11.5)
+      actionview (>= 5.0.0)
+      activesupport (>= 5.0.0)
+    jmespath (1.6.1)
+    jsbundling-rails (1.0.3)
+      railties (>= 6.0.0)
+    loofah (2.19.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
+    marcel (1.0.2)
+    matrix (0.4.2)
+    method_source (1.0.0)
+    mini_mime (1.1.2)
+    mini_portile2 (2.8.0)
+    minitest (5.16.3)
+    net-imap (0.3.1)
+      net-protocol
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.1.3)
+      timeout
+    net-smtp (0.3.3)
+      net-protocol
+    nio4r (2.5.8)
+    nokogiri (1.13.9)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    nokogiri (1.13.9-x86_64-linux)
+      racc (~> 1.4)
+    orm_adapter (0.5.0)
+    pg (1.4.4)
+    public_suffix (5.0.0)
+    puma (5.6.5)
+      nio4r (~> 2.0)
+    raabro (1.4.0)
+    racc (1.6.0)
+    rack (2.2.4)
+    rack-test (2.0.2)
+      rack (>= 1.3)
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.4.3)
+      loofah (~> 2.3)
+    rake (13.0.6)
+    rbtree3 (0.7.0)
+    redis-client (0.11.0)
+      connection_pool
+    regexp_parser (2.6.0)
+    reline (0.3.1)
+      io-console (~> 0.5)
+    responders (3.0.1)
+      actionpack (>= 5.0)
+      railties (>= 5.0)
+    rexml (3.2.5)
+    ruby_http_client (3.5.5)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.5.0)
+      childprocess (>= 0.5, < 5.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+    sendgrid-ruby (6.6.2)
+      ruby_http_client (~> 3.4)
+    sidekiq (7.0.0)
+      concurrent-ruby (< 2)
+      connection_pool (>= 2.3.0)
+      rack (>= 2.2.4)
+      redis-client (>= 0.9.0)
+    simplecov (0.21.2)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
+    sprockets (4.1.1)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    sprockets-rails (3.4.2)
+      actionpack (>= 5.2)
+      activesupport (>= 5.2)
+      sprockets (>= 3.0.0)
+    stimulus-rails (1.1.1)
+      railties (>= 6.0.0)
+    thor (1.2.1)
+    timeout (0.3.0)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
+    warden (1.2.9)
+      rack (>= 2.0.9)
+    web-console (4.2.0)
+      actionview (>= 6.0.0)
+      activemodel (>= 6.0.0)
+      bindex (>= 0.4.0)
+      railties (>= 6.0.0)
+    webdrivers (5.2.0)
+      nokogiri (~> 1.6)
+      rubyzip (>= 1.3.0)
+      selenium-webdriver (~> 4.0)
+    websocket (1.2.9)
+    websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+    zeitwerk (2.6.4)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  airbrake (~> 13.0)!
+  aws-sdk-s3
+  capybara
+  cssbundling-rails
+  debug
+  devise (~> 4.8)!
+  factory_bot_rails (~> 6.2)!
+  faker (~> 3.0)!
+  jbuilder
+  jsbundling-rails
+  kaminari (~> 1.2)!
+  minitest-test_profile (~> 0.2.2)!
+  nice_partials (~> 0.1.9)!
+  pg (~> 1.1)
+  puma (~> 5.0)
+  pundit (~> 2.2)!
+  rails!
+  redis (~> 5.0)!
+  selenium-webdriver
+  sendgrid-ruby (>= 6.6)
+  sidekiq (~> 7.0)
+  sidekiq-cron (~> 1.8)!
+  simplecov
+  sprockets-rails
+  stimulus-rails
+  turbo-rails!
+  tzinfo-data
+  vcr (~> 6.1)!
+  web-console
+  webdrivers
+  webmock (~> 3.18)!
+
+RUBY VERSION
+   ruby 3.0.3p157
+
+BUNDLED WITH
+   2.2.32
