@@ -1,4 +1,14 @@
 GIT
+  remote: https://github.com/bblimke/webmock
+  revision: 833291d4ce2d5927a738f929db26b594bf4fa7f5
+  branch: master
+  specs:
+    webmock (3.18.1)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
+
+GIT
   remote: https://github.com/bullet-train-co/nice_partials
   revision: c49fd0f9ca8414228299e612d98f22a4b39c8e76
   branch: main
@@ -215,6 +225,8 @@ GEM
     childprocess (4.1.0)
     concurrent-ruby (1.1.10)
     connection_pool (2.3.0)
+    crack (0.4.5)
+      rexml
     crass (1.0.6)
     cssbundling-rails (1.1.1)
       railties (>= 6.0.0)
@@ -227,6 +239,7 @@ GEM
       activesupport (>= 5.0.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    hashdiff (1.0.1)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     io-console (0.5.11)
@@ -367,6 +380,7 @@ DEPENDENCIES
   tzinfo-data
   web-console
   webdrivers
+  webmock (~> 3.18)!
 
 RUBY VERSION
    ruby 3.0.3p157
