@@ -78,3 +78,5 @@ gem "pundit", "~> 2.2", :git => "https://github.com/varvet/pundit", :branch => "
 
 gem "sidekiq", "~> 7.0"
 gem "aws-sdk-s3", require: false
+
+gem "nice_partials", "~> 0.1.9", :git => "https://github.com/bullet-train-co/nice_partials", :branch => "main"
